@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  color: #18181B;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+button {
+  font: inherit;
+}
+
+.main {
+  background-color: #F8FAFC;
+  padding: 5rem 2rem;
+  box-shadow: 2px 2px 5px #333;
+}
+
+h1 {
+  margin: 0.5rem 0;
+}
+
+form,
+article {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F8FAFC;
+  border: 1px solid #18181B;
+}
+
+input[type="checkbox"] {
+  min-width: 30px;
+  min-height: 30px;
+  margin-right: 1rem;
+}
+
+button {
+  min-width: 50px;
+  min-height: 50px;
+  border: 1px solid #18181B;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+form {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #18181B;
+  margin-bottom: 1rem;
+}
+
+form label {
+  position: absolute;
+  left: -10000px;
+}
+
+.new-book {
+  width: 100%;
+  padding-right: 30px;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 0.5px solid #18181B;
+}
+
+.submit {
+  background-color: #F8FAFC;
+  color: gray;
+}
+
+.submit:focus,
+.submit:hover {
+  background-color: limegreen;
+  color: #F8FAFC;
+}

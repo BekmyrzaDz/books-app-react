@@ -1,0 +1,20 @@
+.trash {
+  background-color: #F8FAFC;
+  color: #EF4444;
+}
+
+.trash:focus,
+.trash:hover {
+  filter: brightness(120%)
+}
+
+.pen {
+  background-color: #F8FAFC;
+  color: #0c44de;
+  margin-right: 10px;
+}
+
+.pen:focus,
+.pen:hover {
+  filter: brightness(120%)
+}
