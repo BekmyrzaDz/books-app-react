@@ -1,8 +1,8 @@
-# React Query 3 - CRUD Tutorial
+# React - CRUD App
 
 You need to launch client and server separately.
 
-To launch client go to `client` folder and run:
+To launch clien go to `crud-app-react` folder and run:
 
 ```
 yarn && yarn start
